@@ -335,10 +335,4 @@ with app.app_context():
     db.create_all()
 
 if __name__ == '__main__':
-    # Create upload directory if it doesn't exist
-    os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-    
-    print("Starting server on http://localhost:5000")
-    
-    # Run the app with clean logs
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run()
