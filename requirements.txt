@@ -1,0 +1,13 @@
+flask
+flask-sqlalchemy
+flask-migrate
+psycopg2-binary
+python-dotenv
+pillow
+opencv-python
+ultralytics
+pdf2image
+openai
+numpy
+python-multipart
+werkzeug
